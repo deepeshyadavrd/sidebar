@@ -8,7 +8,7 @@ function App() {
   const[sidebar, setSidebar] = useState(false);
 
   const toggleSidebar = () => {
-    setSidebar((prevState)=> !prevState)
+    setSidebar((prevState) => !prevState)
   }
   return (
     <div>

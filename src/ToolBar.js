@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaAlignCenter } from "react-icons/fa6";
 
-export default function ToolBar(openSidebar) {
+export default function ToolBar({openSidebar}) {
   return (
     <div className='tool-bar'>
       <div className='burger' onClick={openSidebar}>
