@@ -16,6 +16,7 @@ function App() {
       <Backdrop/>
       <Sidebar sidebar={sidebar}/>
     </div>
+    
   );
 }
 
