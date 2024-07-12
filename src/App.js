@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './App.css';
-import Sidebar from './Sidebar';
 import Backdrop from './Backdrop';
+import Sidebar from './Sidebar';
 import ToolBar from './ToolBar';
 
 function App() {
