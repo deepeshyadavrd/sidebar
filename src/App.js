@@ -10,6 +10,7 @@ function App() {
   const toggleSidebar = () => {
     setSidebar((prevState) => !prevState)
   }
+  
   return (
     <div>
       <ToolBar openSidebar={toggleSidebar}/>

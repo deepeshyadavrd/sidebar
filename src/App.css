@@ -45,6 +45,11 @@
   align-items: center;
   padding: 1rem;
 }
+
+.burger{
+  cursor: pointer;
+}
+
 .sidebar{
   position: absolute;
   background-color: #222f3e;
