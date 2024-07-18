@@ -5,7 +5,7 @@ import { FaNewspaper } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaInfo } from "react-icons/fa";
 
-export default function Sidebar({Sidebar}) {
+const Sidebar = ({Sidebar}) => {
   return (
     <div className={Sidebar?"sidebar sidebar-open":"sidebar"}>
         <li><FaHome/>Home</li>
@@ -16,3 +16,5 @@ export default function Sidebar({Sidebar}) {
     </div>
   )
 }
+
+export default Sidebar

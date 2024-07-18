@@ -4,7 +4,7 @@ import Backdrop from './Backdrop';
 import Sidebar from './Sidebar';
 import ToolBar from './ToolBar';
 
-function App() {
+const App = () => {
   const[sidebar, setSidebar] = useState(false);
 
   const toggleSidebar = () => {
@@ -18,7 +18,7 @@ function App() {
       <Sidebar sidebar={sidebar}/>
     </div>
     
-  );
+  )
 }
 
 export default App;
