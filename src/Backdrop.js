@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Backdrop() {
+export default function Backdrop({sidebar, closeSidebar}) {
   return (
-    <div className='backdrop'></div>
+    <div className={sidebar?"backdrop backdrop-open":"backdrop"} onClick={closeSidebar}></div>
   )
 }
